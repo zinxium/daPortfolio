@@ -4,51 +4,51 @@ import '../styles/Projects.css'
 const projectsData = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    image: '🛍️',
+    title: 'Soul Connection',
+    description: 'Social networking platform connecting people with shared interests and passions. Built with React frontend and Django backend, featuring real-time messaging and community features.',
+    tech: ['React', 'Django', 'PostgreSQL', 'WebSocket'],
+    image: 'SC',
     link: '#'
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates. Built with React, Firebase, and Material-UI for seamless team collaboration.',
-    tech: ['React', 'Firebase', 'Material-UI', 'Redux'],
-    image: '✓',
+    title: 'Shopiflow',
+    description: 'E-commerce platform for local businesses and merchants. Built with React, featuring product management, shopping cart, order tracking, and local seller integration.',
+    tech: ['React', 'Laravel', 'MySQL', 'Stripe'],
+    image: 'SF',
     link: '#'
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'Beautiful weather application with detailed forecasts. Uses OpenWeather API and provides location-based weather information with smooth animations.',
-    tech: ['React', 'API', 'CSS3', 'Geolocation'],
-    image: '🌦️',
+    title: 'Area',
+    description: 'Automation and automation platform for task workflows. Built with React frontend, allowing users to create and manage automated workflows and integrations.',
+    tech: ['React', 'API', 'JavaScript', 'Responsive'],
+    image: 'AR',
     link: '#'
   },
   {
     id: 4,
-    title: 'Social Media Analytics',
-    description: 'Analytics dashboard for social media metrics. Real-time data visualization with charts and insights. Built with React and Chart.js.',
-    tech: ['React', 'Chart.js', 'API', 'Bootstrap'],
-    image: '📊',
+    title: 'Where2Go',
+    description: 'Travel and destination discovery application. Built with React frontend, featuring interactive maps, destination recommendations, and travel planning tools.',
+    tech: ['React', 'API', 'Maps', 'Responsive'],
+    image: 'W2G',
     link: '#'
   },
   {
     id: 5,
-    title: 'Portfolio Website',
-    description: 'Modern, responsive portfolio website showcasing projects and skills. Optimized for SEO and mobile devices with smooth scrolling.',
-    tech: ['React', 'Bootstrap', 'CSS', 'Responsive'],
-    image: '💼',
+    title: 'Legendary Cave',
+    description: 'Photo gallery and portfolio showcase for my promotion cohort. Built with React frontend, featuring image galleries, student profiles, and memories from our time together.',
+    tech: ['React', 'JavaScript', 'Responsive', 'Gallery'],
+    image: 'LC',
     link: '#'
   },
   {
     id: 6,
-    title: 'AI Chat Application',
-    description: 'Real-time chat application with AI-powered features. Built with WebSocket support and modern UI components for smooth messaging.',
-    tech: ['React', 'WebSocket', 'Node.js', 'AI API'],
-    image: '💬',
-    link: '#'
+    title: 'KPS Groupe Website',
+    description: 'Professional corporate website for KPS Groupe. Built with Vue.js frontend and Appwrite backend, featuring company information, services showcase, and client portfolio.',
+    tech: ['Vue.js', 'Appwrite', 'Responsive', 'SEO'],
+    image: 'KPS',
+    link: 'https://kpsgroupe.com'
   }
 ]
 

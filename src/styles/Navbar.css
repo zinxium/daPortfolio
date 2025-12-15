@@ -1,19 +1,16 @@
 .navbar-custom {
-  border-bottom: 2px solid #e9ecef;
+  border-bottom: 2px solid #020617;
   backdrop-filter: blur(10px);
-  background-color: rgba(33, 37, 41, 0.98) !important;
+  background-color: rgba(3, 4, 94, 0.98) !important;
 }
 
 .brand-name {
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #020617;
   font-weight: 800;
 }
 
 .nav-link-custom {
-  color: #fff !important;
+  color: #caf0f8 !important;
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
@@ -26,7 +23,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  background: #020617;
   transition: width 0.3s ease;
 }
 
@@ -35,5 +32,5 @@
 }
 
 .nav-link-custom:hover {
-  color: #007bff !important;
+  color: #90e0ef !important;
 }

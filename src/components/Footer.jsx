@@ -9,7 +9,7 @@ export default function Footer() {
       <Container>
         <Row className="mb-4">
           <Col md={4} className="mb-4 mb-md-0">
-            <h5 className="fw-bold mb-3">Developer</h5>
+            <h5 className="fw-bold mb-3">Cynthia Zinsou</h5>
             <p className="text-muted">
               Full-stack developer passionate about creating amazing web experiences.
             </p>
@@ -24,14 +24,14 @@ export default function Footer() {
           </Col>
           <Col md={4}>
             <h5 className="fw-bold mb-3">Contact</h5>
-            <p className="text-muted mb-1">📧 hello@example.com</p>
-            <p className="text-muted">📱 +1 (555) 123-4567</p>
+            <p className="text-muted mb-1"><a href="mailto:zinsouanne4@gmail.com" className="footer-link">zinsouanne4@gmail.com</a></p>
+            <p className="text-muted">Cynthia Zinsou</p>
           </Col>
         </Row>
         <hr className="bg-secondary" />
         <div className="text-center text-muted">
           <p className="mb-0">
-            © {currentYear} All rights reserved. Made with ❤️ using React
+            © {currentYear} All rights reserved. Made with passion using React
           </p>
         </div>
       </Container>

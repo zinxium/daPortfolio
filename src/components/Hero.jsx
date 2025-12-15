@@ -8,8 +8,9 @@ export default function Hero() {
         <Row className="align-items-center min-vh-100">
           <Col lg={6} className="hero-content">
             <h1 className="display-3 fw-bold mb-4">
-              Hello, I'm a <span className="gradient-text">Full Stack Developer</span>
+              Hi, I'm <span className="gradient-text">Cynthia Zinsou</span>
             </h1>
+            <h2 className="h4 fw-light mb-4 text-white-50">Full Stack Developer</h2>
             <p className="lead mb-4 text-muted">
               Creating beautiful, functional web experiences with modern technologies. 
               Passionate about clean code and user-centered design.
@@ -24,9 +25,12 @@ export default function Hero() {
             </div>
           </Col>
           <Col lg={6} className="hero-image">
-            <div className="animated-circle"></div>
-            <div className="code-snippet">
-              &lt;Developer /&gt;
+            <div className="profile-image-container">
+              <img 
+                src="https://via.placeholder.com/300x300?text=Your+Photo" 
+                alt="Profile" 
+                className="profile-image"
+              />
             </div>
           </Col>
         </Row>

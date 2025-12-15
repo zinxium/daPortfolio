@@ -6,27 +6,27 @@ const skillsData = [
     category: 'Frontend',
     skills: [
       { name: 'React', level: 95 },
+      { name: 'Vue.js', level: 85 },
       { name: 'JavaScript', level: 90 },
-      { name: 'HTML/CSS', level: 95 },
-      { name: 'Bootstrap', level: 90 }
+      { name: 'TypeScript', level: 80 }
     ]
   },
   {
     category: 'Backend',
     skills: [
-      { name: 'Node.js', level: 85 },
-      { name: 'MongoDB', level: 80 },
-      { name: 'Express.js', level: 85 },
-      { name: 'SQL', level: 80 }
+      { name: 'Laravel', level: 90 },
+      { name: 'PHP', level: 90 },
+      { name: 'MySQL', level: 85 },
+      { name: 'REST APIs', level: 90 }
     ]
   },
   {
     category: 'Tools & Others',
     skills: [
+      { name: 'C', level: 80 },
       { name: 'Git', level: 90 },
       { name: 'REST APIs', level: 90 },
-      { name: 'Responsive Design', level: 95 },
-      { name: 'Problem Solving', level: 95 }
+      { name: 'Responsive Design', level: 95 }
     ]
   }
 ]
