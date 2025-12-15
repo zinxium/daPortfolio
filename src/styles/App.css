@@ -1,0 +1,88 @@
+/* App specific styles */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  position: relative;
+}
+
+/* Button hover effects */
+button {
+  transition: all 0.3s ease;
+}
+
+/* Card hover effects */
+.card {
+  transition: all 0.3s ease;
+}
+
+/* Form styling */
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Link styling */
+a {
+  transition: color 0.3s ease;
+}
+
+/* Custom scrollbar for better UX */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #f1f1f1;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.3rem !important;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* Utility classes */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Loading animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
