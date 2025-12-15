@@ -1,5 +1,5 @@
 .projects-section {
-  background: #f8f9fa;
+  background: #F1F5F9;
   padding: 80px 0;
 }
 
@@ -20,7 +20,7 @@
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1e40af 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +34,7 @@
 }
 
 .project-card .card-title {
-  color: #212529;
+  color: #0F172A;
   margin-top: 0;
   line-height: 1.3;
 }
@@ -51,25 +51,27 @@
 }
 
 .tech-badges .badge {
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  background: #020617;
   padding: 6px 12px;
   font-weight: 500;
   border-radius: 20px;
+  color: #caf0f8;
 }
 
 .project-card .btn {
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  background: #020617;
   border: none;
   font-weight: 600;
   transition: all 0.3s ease;
   text-decoration: none;
-  color: white;
+  color: #caf0f8;
 }
 
 .project-card .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.4);
-  color: white;
+  box-shadow: 0 10px 25px rgba(2, 6, 23, 0.4);
+  background: #010410;
+  color: #caf0f8;
 }
 
 @media (max-width: 768px) {
@@ -80,5 +82,29 @@
   .project-image {
     height: 150px;
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .projects-section {
+    padding: 40px 0;
+  }
+
+  .project-card {
+    margin-bottom: 20px;
+  }
+
+  .project-image {
+    height: 120px;
+    font-size: 2.5rem;
+  }
+
+  .project-card .card-title {
+    font-size: 1.1rem;
+  }
+
+  .project-card .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem;
   }
 }

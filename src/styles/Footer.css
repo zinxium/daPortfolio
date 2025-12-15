@@ -1,15 +1,16 @@
 .footer {
-  border-top: 1px solid #444;
+  border-top: 1px solid #020617;
   margin-top: 80px;
+  background: #0a0e27;
 }
 
 .footer h5 {
-  color: white;
+  color: #caf0f8;
   margin-bottom: 20px;
 }
 
 .footer-link {
-  color: #adb5bd;
+  color: #90e0ef;
   text-decoration: none;
   transition: all 0.3s ease;
   display: inline-block;
@@ -17,8 +18,13 @@
 }
 
 .footer-link:hover {
-  color: #007bff;
+  color: #020617;
   transform: translateX(5px);
+}
+
+.footer p {
+  margin-bottom: 10px;
+  color: #90e0ef;
 }
 
 .footer p {
