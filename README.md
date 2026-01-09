@@ -1,5 +1,11 @@
 # Cynthia Zinsou - Portfolio Website
 
+> A modern, responsive portfolio website showcasing professional skills, projects, and experience.
+
+**Live Demo**: [Coming Soon]  
+**Documentation**: See [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md)  
+**Changelog**: See [CHANGELOG.md](CHANGELOG.md)
+
 ## Overview
 A modern, responsive portfolio website built with React and Vite showcasing skills, projects, and contact information. The site features a clean design with smooth scrolling navigation and interactive components.
 
@@ -180,4 +186,13 @@ npm run preview
 All rights reserved © 2026
 
 ## Contact
-For inquiries, contact: zinsouanne4@gmail.com
+For inquiries, contact: **zinsouanne4@gmail.com**
+
+### Social Media
+- **GitHub**: [cyndzx02](https://github.com/cyndzx02) | [zinxium](https://github.com/zinxium)
+- **LinkedIn**: [Cynthia Zinsou](https://www.linkedin.com/in/cynthia-zinsou-656715258)
+
+---
+
+**Last Updated**: January 9, 2026  
+**Version**: 1.0.0
