@@ -49,7 +49,16 @@ const projectsData = [
     tech: ['Vue.js', 'Appwrite', 'Responsive', 'SEO'],
     image: 'KPS',
     link: 'https://kpsgroupe.com'
-  }
+  },
+  {
+    id: 7,
+    title: 'BI Dashboard - IT Market Intelligence',
+    description: 'Comprehensive business intelligence dashboard for monitoring IT job market trends. Features analytics on job missions, technologies, locations, companies, and salary trends. Includes consultant management with CRUD operations, real-time data visualization, role-based access control, and advanced filtering capabilities. Built to provide strategic insights for recruitment and market analysis.',
+    tech: ['React', 'Dashboard', 'Analytics', 'Real-time Data', 'Role-Based Access'],
+    image: 'BI-Dashboard',
+    link: '#'
+  },
+  
 ]
 
 export default function Projects() {
@@ -57,7 +66,7 @@ export default function Projects() {
     <section id="projects" className="projects-section py-5">
       <Container>
         <div className="section-header text-center mb-5">
-          <h2 className="display-4 fw-bold mb-3">Featured Projects</h2>
+          <h2 className="display-4 fw-bold mb-3 section-title">Featured Projects</h2>
           <p className="lead text-muted">Showcase of my recent work and expertise</p>
         </div>
 

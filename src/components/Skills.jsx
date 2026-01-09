@@ -36,7 +36,7 @@ export default function Skills() {
     <section id="skills" className="skills-section py-5 bg-light">
       <Container>
         <div className="section-header text-center mb-5">
-          <h2 className="display-4 fw-bold mb-3">Skills & Technologies</h2>
+          <h2 className="display-4 fw-bold mb-3 section-title">Skills & Technologies</h2>
           <p className="lead text-muted">Technologies and tools I work with</p>
         </div>
 

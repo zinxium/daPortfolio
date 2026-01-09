@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+.contact-section .section-title {
+  color: #FFFFFF !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .contact-section::before {
   content: '';
   position: absolute;

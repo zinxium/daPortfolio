@@ -25,13 +25,18 @@ export default function Footer() {
           <Col md={4}>
             <h5 className="fw-bold mb-3">Contact</h5>
             <p className="text-muted mb-1"><a href="mailto:zinsouanne4@gmail.com" className="footer-link">zinsouanne4@gmail.com</a></p>
-            <p className="text-muted">Cynthia Zinsou</p>
+            <p className="text-muted mb-2">Cynthia Zinsou</p>
+            <div className="social-links">
+              <a href="https://github.com/cyndzx02" className="footer-link me-3" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/zinxium" className="footer-link me-3" target="_blank" rel="noopener noreferrer">GitHub 2</a>
+              <a href="https://www.linkedin.com/in/cynthia-zinsou-656715258" className="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
           </Col>
         </Row>
         <hr className="bg-secondary" />
         <div className="text-center text-muted">
           <p className="mb-0">
-            © {currentYear} All rights reserved. Made with passion using React
+            © {currentYear} All rights reserved.
           </p>
         </div>
       </Container>

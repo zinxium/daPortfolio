@@ -5,8 +5,9 @@ export default function Navbar() {
   return (
     <BootstrapNavbar bg="dark" expand="lg" sticky="top" className="navbar-custom">
       <Container>
-        <BootstrapNavbar.Brand href="#" className="fw-bold fs-4">
-          <span className="brand-name">CYNTHIA</span>
+        <BootstrapNavbar.Brand href="#" className="fw-bold fs-4 d-flex align-items-center justify-content-between gap-2">
+          <span className="brand-name">CYNTHIA</span> 
+          <span className="brand-name">ZINSOU</span>
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
