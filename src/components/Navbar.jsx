@@ -14,6 +14,7 @@ export default function Navbar() {
           <Nav className="ms-auto gap-3">
             <Nav.Link href="#projects" className="nav-link-custom">Projects</Nav.Link>
             <Nav.Link href="#skills" className="nav-link-custom">Skills</Nav.Link>
+            <Nav.Link href="#certifications" className="nav-link-custom">Certifications</Nav.Link>
             <Nav.Link href="#contact" className="nav-link-custom">Contact</Nav.Link>
           </Nav>
         </BootstrapNavbar.Collapse>

@@ -1,4 +1,6 @@
 import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap'
+import shopiflowPreview from '../assets/shopiflow/Screenshot 2025-03-14 074813.png'
+import spotfinderPreview from '../assets/spotfinder/Screenshot 2026-02-26 163819.png'
 import '../styles/Projects.css'
 
 const projectsData = [
@@ -16,6 +18,7 @@ const projectsData = [
     description: 'E-commerce platform for local businesses and merchants. Built with React, featuring product management, shopping cart, order tracking, and local seller integration.',
     tech: ['React', 'Laravel', 'MySQL', 'Stripe'],
     image: 'SF',
+    imagePreview: shopiflowPreview,
     link: '#'
   },
   {
@@ -58,7 +61,64 @@ const projectsData = [
     image: 'BI-Dashboard',
     link: '#'
   },
-  
+  {
+    id: 8,
+    title: 'Bordeaux Guide',
+    description: 'Local guide application for the Chartrons district and Gaming Campus area in Bordeaux. Curates the best leisure, health, dining, and commercial spots with a clean, modern interface tailored for students and residents.',
+    tech: ['Vue 3', 'Vite', 'Tailwind CSS', 'Responsive'],
+    image: 'BG',
+    link: '#'
+  },
+  {
+    id: 9,
+    title: 'BRVM Advisor',
+    description: 'AI-powered investment analysis assistant for the BRVM (West African regional stock exchange). Combines real-time market data with Claude AI and web search to provide intelligent insights, portfolio recommendations, and market trend analysis.',
+    tech: ['Next.js', 'TypeScript', 'Claude API', 'AI', 'Finance'],
+    image: 'BA',
+    link: '#'
+  },
+  {
+    id: 10,
+    title: 'ELT E-commerce Pipeline',
+    description: 'End-to-end ELT data pipeline processing 100k+ Brazilian e-commerce orders from the Olist dataset. Implements star schema modeling on Snowflake and BigQuery for advanced analytics, customer segmentation, and sales reporting.',
+    tech: ['Python', 'Snowflake', 'BigQuery', 'SQL', 'pandas'],
+    image: 'ELT',
+    link: '#'
+  },
+  {
+    id: 11,
+    title: 'FruityX',
+    description: 'Cross-platform desktop card-matching game for two players. Match fruits by taste, type, or joker cards with smooth animations, immersive sound effects, and live score tracking. Built as a native desktop app with Tauri for high performance.',
+    tech: ['Vue 3', 'Tauri', 'Rust', 'TypeScript', 'Howler.js'],
+    image: 'FYX',
+    link: '#'
+  },
+  {
+    id: 12,
+    title: 'Munchit Refont',
+    description: 'Complete frontend redesign of the Munchit food and dining application. Rebuilt the UI from the ground up with a modern component architecture, improved UX flows, and a responsive design system.',
+    tech: ['React', 'TypeScript', 'Vite', 'Bootstrap', 'Tailwind CSS'],
+    image: 'MUN',
+    link: '#'
+  },
+  {
+    id: 13,
+    title: 'AgroNova',
+    description: 'MVP marketplace platform connecting local farmers directly with consumers for the sale of fresh, organic agricultural products. Includes inventory management, secure payment integration via Interswitch, and a streamlined order workflow. Originally pitched at the Lagos Trip 2025.',
+    tech: ['Vue 3', 'Node.js', 'Express', 'MySQL', 'Interswitch API'],
+    image: 'AGN',
+    link: '#'
+  },
+  {
+    id: 14,
+    title: 'SpotFinder',
+    description: 'Mobile application for discovering, sharing, and rating places — restaurants, cafés, hotels, museums — in real time. Features include geolocation, favorites, user reviews, and a social discovery feed. Built with React Native and a Django REST backend.',
+    tech: ['React Native', 'Expo', 'TypeScript', 'Django', 'NativeWind'],
+    image: 'SPF',
+    imagePreview: spotfinderPreview,
+    link: '#'
+  },
+
 ]
 
 export default function Projects() {
@@ -74,7 +134,13 @@ export default function Projects() {
           {projectsData.map(project => (
             <Col lg={4} md={6} key={project.id}>
               <Card className="project-card h-100 shadow-sm">
-                <div className="project-image">{project.image}</div>
+                <div className="project-image">
+                  {project.imagePreview ? (
+                    <img src={project.imagePreview} alt={`${project.title} preview`} />
+                  ) : (
+                    project.image
+                  )}
+                </div>
                 <Card.Body>
                   <Card.Title className="fw-bold mb-3">{project.title}</Card.Title>
                   <Card.Text className="text-muted mb-3">{project.description}</Card.Text>

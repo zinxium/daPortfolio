@@ -2,7 +2,45 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Current] - 2026-01-09
+## [2026-05-11] - Project Expansion, Certifications & Visual Refresh
+
+### Added
+
+#### Projects
+- **7 new projects** added to the `projectsData` array in `Projects.jsx`, bringing the total from **7 → 14**:
+  | # | Project | Stack |
+  |---|---------|-------|
+  | 8  | Bordeaux Guide        | Vue 3, Vite, Tailwind CSS |
+  | 9  | BRVM Advisor          | Next.js, TypeScript, Claude API |
+  | 10 | ELT E-commerce Pipeline | Python, Snowflake, BigQuery, pandas |
+  | 11 | FruityX               | Vue 3, Tauri, Rust, TypeScript |
+  | 12 | Munchit Refont        | React, TypeScript, Vite, Tailwind |
+  | 13 | AgroNova (Lagos Trip 2025 MVP) | Vue 3, Node.js, MySQL, Interswitch API |
+  | 14 | SpotFinder            | React Native, Expo, Django, NativeWind |
+
+#### Certifications (new section)
+- New section **Certifications** inserted between Skills and Contact.
+- Created `src/components/Certifications.jsx` + `src/styles/Certifications.css`.
+- Wired into `App.jsx`; new `#certifications` link added to `Navbar.jsx`.
+- 6 credentials listed:
+  - **Google** — Build a Data Warehouse with BigQuery Skill Badge (Apr 2026)
+  - **Google** — BigQuery Fundamentals for Snowflake Professionals (Apr 2026, ID 23517629)
+  - **Snowflake** — Hands-On Essentials: Data Engineering Workshop (Mar 2026, ID 177816040)
+  - **Snowflake** — Hands-On Essentials: Data Lake Workshop (Jan 2026, with skill tags)
+  - **Snowflake** — Hands-On Essentials: Collaboration, Marketplace & Cost Estimation Workshop (Jan 2026, ID 170906475)
+  - **Snowflake** — Hands-On Essentials: Data Warehousing Workshop (Dec 2025, ID 170143678)
+- Card layout: issuer-logo avatar (Google multi-color gradient, Snowflake blue gradient), title, issuer, issue date, optional credential ID, optional skill badges.
+
+### Changed
+
+#### Visuals
+- **Hero profile photo**: replaced the `/Garotas.jpg` placeholder with a proper ES-module import of `src/assets/profil-photo.jpg`. `alt` attribute corrected to `"Cynthia Zinsou"`.
+- **Real project previews**: projects with screenshots in `src/assets/` now show the actual screenshot instead of the text abbreviation.
+  - Added `imagePreview` field on project entries; `Projects.jsx` renders `<img>` when present, falls back to the abbreviation cover otherwise.
+  - Applied to **Shopiflow** (`assets/shopiflow/`) and **SpotFinder** (`assets/spotfinder/`).
+  - `.project-image` CSS updated: `overflow: hidden`, `img { object-fit: cover }`, and hover-scale on the image rather than the container.
+
+## [2026-01-09]
 
 ### Added
 - **Fixed Navigation Bar**: Changed navbar from sticky to fixed positioning for better accessibility
@@ -142,6 +180,6 @@ VITE_TEMPLATE_ID=template_id_here
 
 ---
 
-**Last Updated**: January 9, 2026
+**Last Updated**: May 11, 2026
 **Maintainer**: Cynthia Zinsou
 **Contact**: zinsouanne4@gmail.com

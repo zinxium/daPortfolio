@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import profilePhoto from '../assets/profil-photo.jpg'
 import '../styles/Hero.css'
 
 export default function Hero() {
@@ -36,9 +37,9 @@ export default function Hero() {
           </Col>
           <Col lg={6} className="hero-image">
             <div className="profile-image-container">
-              <img 
-                src="/Garotas.jpg" 
-                alt="Profile" 
+              <img
+                src={profilePhoto}
+                alt="Cynthia Zinsou"
                 className="profile-image"
               />
             </div>

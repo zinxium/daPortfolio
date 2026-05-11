@@ -1,0 +1,136 @@
+.certifications-section {
+  background: #F1F5F9;
+  padding: 80px 0;
+}
+
+.certifications-section .section-title {
+  color: #212529 !important;
+  text-shadow: 1px 1px 2px rgba(33, 37, 41, 0.1);
+}
+
+.cert-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.8s ease-out;
+  border-left: 4px solid #007bff;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.cert-issuer-logo {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+.issuer-google {
+  background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 100%);
+}
+
+.issuer-snowflake {
+  background: linear-gradient(135deg, #29B5E8 0%, #0066B2 100%);
+}
+
+.cert-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.cert-title {
+  color: #0F172A;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  line-height: 1.35;
+}
+
+.cert-issuer {
+  color: #2563EB;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.cert-date {
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.cert-credential {
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.credential-id {
+  color: #212529;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+}
+
+.cert-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.cert-skills .badge {
+  background: #020617 !important;
+  color: #caf0f8;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .certifications-section {
+    padding: 50px 0;
+  }
+
+  .cert-card {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .cert-issuer-logo {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+
+  .cert-title {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .certifications-section {
+    padding: 40px 0;
+  }
+
+  .cert-card {
+    flex-direction: column;
+    padding: 18px;
+  }
+
+  .cert-title {
+    font-size: 0.95rem;
+  }
+}
