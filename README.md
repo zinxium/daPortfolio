@@ -1,4 +1,4 @@
-# Cynthia Zinsou - Portfolio Website
+# zinxium- Portfolio Website
 
 > A modern, responsive portfolio website showcasing professional skills, projects, and experience.
 
@@ -186,11 +186,10 @@ npm run preview
 All rights reserved © 2026
 
 ## Contact
-For inquiries, contact: **zinsouanne4@gmail.com**
+For inquiries, contact: 
 
 ### Social Media
-- **GitHub**: [cyndzx02](https://github.com/cyndzx02) | [zinxium](https://github.com/zinxium)
-- **LinkedIn**: [Cynthia Zinsou](https://www.linkedin.com/in/cynthia-zinsou-656715258)
+
 
 ---
 
