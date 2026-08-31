@@ -1,4 +1,4 @@
-# Cynthia Zinsou - Portfolio Website
+# Cyaz - Portfolio Website
 
 ## Overview
 A modern, responsive portfolio website built with React and Vite showcasing skills, projects, and contact information. The site features a clean design with smooth scrolling navigation and interactive components.
@@ -180,4 +180,3 @@ npm run preview
 All rights reserved © 2026
 
 ## Contact
-For inquiries, contact: zinsouanne4@gmail.com
