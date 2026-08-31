@@ -34,7 +34,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 #### Visuals
-- **Hero profile photo**: replaced the `/Garotas.jpg` placeholder with a proper ES-module import of `src/assets/profil-photo.jpg`. `alt` attribute corrected to `"Cynthia Zinsou"`.
+- **Hero profile photo**: replaced the `/Garotas.jpg` placeholder with a proper ES-module import of `src/assets/profil-photo.jpg`. `alt` attribute corrected to `"zinzium "`.
 - **Real project previews**: projects with screenshots in `src/assets/` now show the actual screenshot instead of the text abbreviation.
   - Added `imagePreview` field on project entries; `Projects.jsx` renders `<img>` when present, falls back to the abbreviation cover otherwise.
   - Applied to **Shopiflow** (`assets/shopiflow/`) and **SpotFinder** (`assets/spotfinder/`).
@@ -62,7 +62,7 @@ All notable changes to this project will be documented in this file.
 
 - **Social Media Links**: 
   - Added GitHub profiles (cyndzx02 and zinxium)
-  - Added LinkedIn profile (https://www.linkedin.com/in/cynthia-zinsou-656715258)
+  - Added LinkedIn profile (https://www.linkedin.com/in/zinzium--656715258)
   - Integrated in Footer component
   - Integrated in Contact section
 
@@ -181,5 +181,5 @@ VITE_TEMPLATE_ID=template_id_here
 ---
 
 **Last Updated**: May 11, 2026
-**Maintainer**: Cynthia Zinsou
-**Contact**: zinsouanne4@gmail.com
+**Maintainer**: zinzium 
+**Contact**: anne4@gmail.com
